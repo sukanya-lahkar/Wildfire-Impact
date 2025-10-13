@@ -1,7 +1,5 @@
 # Wildfire-Equity-Impact-Project
 
-# 🌲 Evacuation Equity Index & Prescribed Fire Stress Tests
-
 **Using WatchDuty wildfire data to identify and address inequities in evacuation systems before real wildfires occur.**
 
 ---
@@ -19,9 +17,56 @@ This project develops a **reproducible framework** to measure and visualize disp
 ---
 
 ## 📁 Repository Structure
-notebooks/ ← Jupyter notebooks for each analysis phase
-src/ ← Reusable helper functions (geospatial, visualization, etc.)
-data/ ← Raw & processed datasets (not tracked if large)
-dashboard/ ← Prototype dashboard (Streamlit/Dash)
-reports/ ← Paper drafts, figures, policy briefs
-docs/ ← Methodology, references, data dictionary
+notebooks/ ← Jupyter notebooks for each analysis phase  
+src/ ← Reusable helper functions (geospatial, visualization, etc.)  
+data/ ← Raw & processed datasets (not tracked if large)  
+dashboard/ ← Prototype dashboard (Streamlit/Dash)  
+reports/ ← Paper drafts, figures, policy briefs  
+docs/ ← Methodology, references, data dictionary  
+
+---
+
+## 🧰 Key Dependencies
+1. pandas, geopandas, shapely, rasterio, rasterstats
+2. matplotlib/ plotly/ folium for visualization
+3. streamlit for dashboard
+4. scikit-learn (optional) for clustering or anomaly detection
+
+---
+
+## 🔐 Data
+1. **WatchDuty wildfire** alerts, perimeters, and evacuation zones
+2. **CDC/ATSDR SVI** for social vulnerability
+3. **US Census ACS** for language, mobility and income data
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/wildfire-equity-project.git
+cd wildfire-equity-project
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## 📝 Citation
+If you use this framework, please cite:  
+Lahkar, S., [Year]. Evacuation Equity Index & Prescribed Fire Stress Tests: A Reproducible Framework for Wildfire Resilience.
+
+---
+
+## 🤝 Acknowledgements
+1. **WatchDuty** for real-time wildfire data
+2. **CDC SVI/ US Census Bureau** for vulnerability datasets
+
+
+
+
