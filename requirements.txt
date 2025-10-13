@@ -1,1 +1,10 @@
+pandas
+geopandas
+shapely
+rasterio
+rasterstats
+plotly
+folium
+streamlit
+scikit-learn
 
