@@ -1,1 +1,1 @@
-# Wildfire-Impact
+# Wildfire-Equity-Impact-Project
